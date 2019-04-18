@@ -25,7 +25,7 @@ interface JobInterface extends MessageInterface
      *
      * @return mixed
      */
-    public function getId();
+    public function getId(): int;
 
     /**
      * Execute the job
